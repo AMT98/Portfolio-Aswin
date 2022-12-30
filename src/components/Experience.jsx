@@ -5,7 +5,6 @@ import css from "../assets/css.png";
 import javascript from "../assets/javascript.png";
 import reactImage from "../assets/react.png";
 import nextjs from "../assets/nextjs.png";
-import graphql from "../assets/graphql.png";
 import github from "../assets/github.png";
 import tailwind from "../assets/tailwind.png";
 
@@ -49,12 +48,6 @@ const Experience = () => {
     },
     {
       id: 7,
-      src: graphql,
-      title: "GraphQL",
-      style: "shadow-pink-400",
-    },
-    {
-      id: 8,
       src: github,
       title: "GitHub",
       style: "shadow-gray-400",
@@ -74,7 +67,7 @@ const Experience = () => {
           <p className="py-6">These are the technologies I've worked with</p>
         </div>
 
-        <div className="w-8/12 h-1/4 grid grid-cols-2 sm:grid-cols-4 gap-8 text-center py-1 px-1 sm:px-0">
+        <div className="w-8/12 h-1/4 grid grid-cols-2 sm:grid-cols-5 gap-8 text-center items-center py-1 px-1 sm:px-0">
           {techs.map(({ id, src, title, style }) => (
             <div
               key={id}
