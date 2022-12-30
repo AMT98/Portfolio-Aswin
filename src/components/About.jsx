@@ -7,31 +7,27 @@ const About = () => {
       className="w-full h-screen bg-gradient-to-b from-gray-800 to-black text-white"
     >
       <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full">
-        <div className="pb-8">
-          <p className="text-4xl font-bold inline border-b-4 border-gray-500">
-            About
+        <div className="flex flex-col justify-center h-full">
+          <div className="pb-8">
+            <p className="text-4xl font-bold inline border-b-4 border-gray-500 text-[#16A6DE]">
+              About
+            </p>
+          </div>
+          <p className="text-white-500 py-4 max-w-md">
+            I am a fullstack developer with over a year of experience. I have a
+            strong foundation in both front-end and back-end development. I am
+            proficient in languages such as HTML, CSS and JavaScript and have
+            experience working with popular framework like React.
+          </p>
+          <p className="text-white-500 py-4 max-w-md">
+            In addition to my technical skills, I am also a strong communicator
+            and problem-solver. I enjoy collaborating with cross-functional
+            teams and am always seeking to improve my skills and stay up-to-date
+            with the latest technologies. If you are looking for a reliable and
+            skilled fullstack developer, I would love the opportunity to discuss
+            how my skills and experience can benefit your team.
           </p>
         </div>
-
-        <p className="text-xl mt-20">
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eius,
-          deserunt illum mollitia officiis qui exercitationem perferendis neque
-          quasi a recusandae necessitatibus tempora iusto! Blanditiis error
-          iste, totam fugiat recusandae rerum laborum perferendis molestiae
-          aperiam asperiores nemo. Magni dolor maxime debitis vitae, eaque hic
-          ab mollitia voluptatibus, a nostrum eveniet laborum!
-        </p>
-
-        <br />
-
-        <p className="text-xl">
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laborum
-          pariatur, vel similique sint, nobis aspernatur ut praesentium
-          explicabo ipsam aliquid quasi laboriosam et culpa possimus repudiandae
-          quisquam ullam maiores ab unde. Fugiat odio mollitia nemo alias.
-          Commodi facilis atque nulla vero voluptatem explicabo. Quibusdam,
-          magni quo! Eum cupiditate debitis labore.
-        </p>
       </div>
     </div>
   );
