@@ -60,7 +60,7 @@ const SocialLinks = () => {
           >
             <a
               href={href}
-              className="flex justify-between items-center w-full text-white font-bold "
+              className="flex justify-between items-center w-full text-[#0A192F] font-bold "
               download={download}
               target="_blank"
               rel="noreferrer"

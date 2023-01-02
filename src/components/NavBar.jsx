@@ -2,6 +2,7 @@ import React from "react";
 import { useState } from "react";
 import { FaBars, FaTimes } from "react-icons/fa";
 import { Link } from "react-scroll";
+import websiteLogo from "../assets/website-logo.png"
 
 const NavBar = () => {
   const [nav, setNav] = useState(false);
@@ -27,12 +28,14 @@ const NavBar = () => {
       link: "contact",
     },
   ];
+  const handleLogo = () => window.location.reload();
   return (
-    <div className="flex justify-between items-center w-full h-20 px-4 text-[#C2CCEB] bg-[#0A192F] fixed">
+    <div className="flex justify-between items-center w-full h-20 px-4 text-[#C2CCEB] bg-[#0A192F] fixed cursor-pointer">
       <div>
-        <h1 className="text-5xl font-signature ml-2 text-[#0EC8AD]">AMT</h1>
+        {/* <h1 className="text-5xl font-signature ml-2 text-[#0EC8AD]">AMT</h1> */}
+        <img onClick={handleLogo} className="w-12 h-auto ml-6 mt-3"  src={websiteLogo} alt="logo" />
       </div>
-      <ul className="hidden md:flex">
+      <ul className="hidden md:flex navItems">
         {links.map(({ id, link }) => (
           <li
             key={id}

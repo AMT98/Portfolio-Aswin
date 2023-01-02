@@ -10,27 +10,33 @@ const About = () => {
               About
             </p>
           </div>
-          <p className="text-white-500 font-bold text-lg py-4 max-w-md">
-            I am a fullstack developer with over a year of experience. I have a
-            strong foundation in both front-end and back-end development. I am
-            proficient in languages such as HTML, CSS and JavaScript and have
-            experience working with popular framework like React.
-          </p>
-          <p className="text-white-500 font-bold text-lg py-4 max-w-md">
-            In addition to my technical skills, I am also a strong communicator
-            and problem-solver. I enjoy collaborating with cross-functional
-            teams and am always seeking to improve my skills and stay up-to-date
-            with the latest technologies. If you are looking for a reliable and
-            skilled fullstack developer, I would love the opportunity to discuss
-            how my skills and experience can benefit your team.
-          </p>
-        </div>
-        <div className="w-4/12 ">
-          <img
-            src={HeroImage}
-            alt="profilepic"
-            className="shadow rounded-full max-w-full h-auto align-middle border-none "
-          />
+          <div className="flex flex-col sm:flex-row">
+            <div>
+              <p className="text-white-500 font-bold text-lg py-4 max-w-md">
+                I am a fullstack developer with over a year of experience. I
+                have a strong foundation in both front-end and back-end
+                development. I am proficient in languages such as HTML, CSS, and
+                JavaScript and have experience working with popular framework
+                like React.
+              </p>
+              <p className="text-white-500 font-bold text-lg py-4 max-w-md">
+                In addition to my technical skills, I am also a strong
+                communicator and problem-solver. I enjoy collaborating with
+                cross-functional teams and am always seeking to improve my
+                skills and stay up-to-date with the latest technologies. If you
+                are looking for a reliable and skilled fullstack developer, I
+                would love the opportunity to discuss how my skills and
+                experience can benefit your team.
+              </p>
+            </div>
+            <div className="w-5/12 ">
+              <img
+                src={HeroImage}
+                alt="profilepic"
+                className="shadow-xl rounded-full max-w-full h-auto align-middle opacity-50 hover:opacity-100"
+              />
+            </div>
+          </div>
         </div>
       </div>
     </div>

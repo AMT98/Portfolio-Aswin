@@ -1,43 +1,171 @@
 import React from "react";
-import arrayDestruct from "../assets/portfolio/arrayDestruct.jpg";
-import installNode from "../assets/portfolio/installNode.jpg";
-import navbar from "../assets/portfolio/navbar.jpg";
-import reactParallax from "../assets/portfolio/reactParallax.jpg";
-import reactSmooth from "../assets/portfolio/reactSmooth.jpg";
-import reactWeather from "../assets/portfolio/reactWeather.jpg";
+import strangersThings from "../assets/portfolio/ST.PNG";
+import guessingNum from "../assets/portfolio/guessnum.PNG";
+import tictactoe from "../assets/portfolio/tikitak.PNG";
+import artCollector from "../assets/portfolio/artProject.PNG";
+import qwerty from "../assets/portfolio/qwerty.PNG";
+import personalWebsiteV2 from "../assets/portfolio/portfolioV2.PNG";
+import {MdPreview} from 'react-icons/md'
+import { FaGithub } from "react-icons/fa";
 
 const Portfolio = () => {
   const portfolios = [
     {
       id: 1,
-      src: arrayDestruct,
+      title: `Stranger's Things`,
+      src: strangersThings,
+      demo: (
+        <a
+          className="w-1/2 px-6 py-3 m-4"
+          href="https://st-amt98.netlify.app"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <MdPreview size={25}/>
+        </a>
+      ),
+      code: (
+        <a
+          className="w-1/2 px-6 py-3 m-4"
+          href="https://github.com/AMT98/Strangers-Things"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <FaGithub size={25} />
+        </a>
+      ),
     },
     {
       id: 2,
-      src: reactParallax,
+      title: "Personal Website",
+      src: personalWebsiteV2,
+      demo: (
+        <a
+          className="w-1/2 px-6 py-3 m-4"
+          href="https://github.com/AMT98/Portfolio-Aswin"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <MdPreview size={25}/>
+        </a>
+      ),
+      code: (
+        <a
+          className="w-1/2 px-6 py-3 m-4"
+          href="https://github.com/AMT98/Portfolio-Aswin"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <FaGithub size={25} />
+        </a>
+      ),
     },
     {
       id: 3,
-      src: navbar,
+      title: "Art Collector",
+      src: artCollector,
+      demo: (
+        <a
+          className="w-1/2 px-6 py-3 m-4"
+          href="https://artcollectorfsa.netlify.app/"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <MdPreview size={25}/>
+        </a>
+      ),
+      code: (
+        <a
+          className="w-1/2 px-6 py-3 m-4"
+          href="https://github.com/AMT98/UNIV_Art_Collector_React_Starter"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <FaGithub size={25} />
+        </a>
+      ),
     },
     {
       id: 4,
-      src: reactSmooth,
+      title: "Tic-Tac-Toe",
+      src: tictactoe,
+      demo: (
+        <a
+          className="w-1/2 px-6 py-3 m-4"
+          href="https://tikitak.netlify.app/"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <MdPreview size={25}/>
+        </a>
+      ),
+      code: (
+        <a
+          className="w-1/2 px-6 py-3 m-4"
+          href="https://github.com/AMT98/Tic-Tac-Toe"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <FaGithub size={25} />
+        </a>
+      ),
     },
     {
       id: 5,
-      src: installNode,
+      title: "Qwerty",
+      src: qwerty,
+      demo: (
+        <a
+          className="w-1/2 px-6 py-3 m-4"
+          href="https://qwertyfsa.netlify.app/"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <MdPreview size={25}/>
+        </a>
+      ),
+      code: (
+        <a
+          className="w-1/2 px-6 py-3 m-4"
+          href="https://github.com/AMT98/QWERTY"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <FaGithub size={25} />
+        </a>
+      ),
     },
     {
       id: 6,
-      src: reactWeather,
+      title: "Guessing Number",
+      src: guessingNum,
+      demo: (
+        <a
+          className="w-1/2 px-6 py-3 m-4"
+          href="https://guessingnum.netlify.app/"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <MdPreview size={25}/>
+        </a>
+      ),
+      code: (
+        <a
+          className="w-1/2 px-6 py-3 m-4"
+          href="https://github.com/AMT98/Guessing-Game"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <FaGithub size={25} />
+        </a>
+      ),
     },
   ];
 
   return (
     <div
       name="portfolio"
-      className="bg-[#0A192F] w-full text-[#00CCAF] md:h-screen"
+      className="bg-[#0A192F] w-full md:h-screen"
     >
       <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full">
         <div className="pb-8">
@@ -47,20 +175,16 @@ const Portfolio = () => {
         </div>
 
         <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0">
-          {portfolios.map(({ id, src }) => (
-            <div key={id} className="shadow-md shadow-gray-200 rounded-xl hover:scale-105 text-[#00CCAF]">
-              <img
-                src={src}
-                alt=""
-                className="rounded-md duration-200 "
-              />
-              <div className="flex items-center justify-center">
-                <button className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105">
-                  Demo
-                </button>
-                <button className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105">
-                  Code
-                </button>
+          {portfolios.map(({ id, src, demo, code, title }) => (
+            <div
+              key={id}
+              className="shadow-md shadow-gray-200 rounded-xl hover:scale-105 text-[white] hover:text-[#00CCAF]"
+            >
+              <img src={src} alt="" className="rounded-md duration-200 " />
+              <div className="flex items-center justify-center text-[#00CCAF] font-bold">{title}</div>
+              <div className="flex items-center ml-7">
+                {demo}
+                {code}
               </div>
             </div>
           ))}
