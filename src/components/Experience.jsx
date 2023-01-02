@@ -90,3 +90,16 @@ const Experience = () => {
 };
 
 export default Experience;
+
+
+// skills 
+// languages - 
+// JSON(es6)
+// html, css, sql
+
+// frameworks- 
+// react, node
+
+// tools- 
+// FaBellSlash, github, git, postman, chrome devtools
+

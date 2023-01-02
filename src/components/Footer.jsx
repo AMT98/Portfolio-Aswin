@@ -1,10 +1,10 @@
 import React from "react";
 const footer = () => {
   return (
-    <footer className="text-center bg-[#0EC8AD] text-white">
+    <footer className="text-center bg-[#0EC8AD] text-black">
       <div className="text-center p-4">
         © 2023 Copyright:
-        <a className="text-whitehite" href="www.google.com">
+        <a href="1">
           Aswin Malla
         </a>
       </div>

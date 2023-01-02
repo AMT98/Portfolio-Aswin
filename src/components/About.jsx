@@ -1,11 +1,8 @@
 import React from "react";
-
+import HeroImage from "../assets/heroImage.png";
 const About = () => {
   return (
-    <div
-      name="about"
-      className="w-full h-screen bg-[#0A192F] text-[#838DAB]"
-    >
+    <div name="about" className="w-full h-screen bg-[#0A192F] text-[#838DAB]">
       <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full">
         <div className="flex flex-col justify-center h-full">
           <div className="pb-8">
@@ -27,6 +24,13 @@ const About = () => {
             skilled fullstack developer, I would love the opportunity to discuss
             how my skills and experience can benefit your team.
           </p>
+        </div>
+        <div className="w-4/12 ">
+          <img
+            src={HeroImage}
+            alt="profilepic"
+            className="shadow rounded-full max-w-full h-auto align-middle border-none "
+          />
         </div>
       </div>
     </div>
