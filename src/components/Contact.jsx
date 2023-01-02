@@ -8,7 +8,7 @@ const Contact = () => {
     >
       <div className="flex flex-col p-4 justify-center max-w-screen-lg mx-auto h-full">
         <div className="pb-8">
-          <p className="text-4xl font-bold inline border-b-4 border-gray-500 text-[#16A6DE]">
+          <p className="text-4xl font-bold inline border-b-4 border-gray-500 text-[#00CCAF]">
             Contact
           </p>
           <p className="py-6">Let's start a conversation</p>
@@ -25,7 +25,7 @@ const Contact = () => {
             method="POST"
             className=" flex flex-col w-full md:w-1/2"
           >
-            <h1 className="text-2xl mb-4 text-[#16A6DE]">
+            <h1 className="text-2xl mb-4 text-[#00CCAF]">
               Please fill out all sections
             </h1>
             <input
@@ -50,7 +50,7 @@ const Contact = () => {
               className="p-2 bg-transparent border-2 rounded-md text-white focus:outline-none"
             ></textarea>
 
-            <button className="text-white bg-gradient-to-b from-cyan-500 to-blue-500 px-6 py-3 my-8 mx-auto flex items-center rounded-md hover:scale-110 duration-300">
+            <button className="text-white bg-gradient-to-r from-[#00CDAE] to-[#00CCAF] 0 px-6 py-3 my-8 mx-auto flex items-center rounded-md hover:scale-110 duration-300">
               Send
             </button>
           </form>
