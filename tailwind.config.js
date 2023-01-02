@@ -4,7 +4,7 @@ module.exports = {
   theme: {
     extend: {},
     fontFamily: {
-      signature: ["Times New Roman"]
+      signature: ["Kings"]
     }
   },
   plugins: [],

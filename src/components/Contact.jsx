@@ -1,22 +1,24 @@
 import React from "react";
 
+import { MdOutlineSend } from "react-icons/md";
+
 const Contact = () => {
   return (
     <div
       name="contact"
-      className="w-full h-screen bg-[#111111] p-4 text-white"
+      className="w-full h-screen bg-[#0A192F] p-4 text-white"
     >
       <div className="flex flex-col p-4 justify-center max-w-screen-lg mx-auto h-full">
         <div className="pb-8">
           <p className="text-4xl font-bold inline border-b-4 border-gray-500 text-[#00CCAF]">
             Contact
           </p>
-          <p className="py-6">Let's start a conversation</p>
+          <p className="py-6 text-[#838DAB]">Let's start a conversation</p>
           <div className="py-1">
             <span className="text-[#16A6DE]">Email:</span>
-            <h1 className="mb-2 mt-10*">aswinmalla12@gmail.com</h1>
+            <h1 className="mb-2 mt-10* text-[#838DAB]">aswinmalla12@gmail.com</h1>
             <span className="text-[#16A6DE]">Phone:</span>
-            <h1 className="pb-6">(720)-418-1221</h1>
+            <h1 className="pb-6 text-[#838DAB]">(720)-418-1221</h1>
           </div>
         </div>
         <div className=" flex justify-center items-center">
@@ -51,7 +53,7 @@ const Contact = () => {
             ></textarea>
 
             <button className="text-white bg-gradient-to-r from-[#00CDAE] to-[#00CCAF] 0 px-6 py-3 my-8 mx-auto flex items-center rounded-md hover:scale-110 duration-300">
-              Send
+            Send <MdOutlineSend size={25} className="ml-1" />
             </button>
           </form>
         </div>
