@@ -4,7 +4,7 @@ const About = () => {
   return (
     <div
       name="about"
-      className="w-full h-screen bg-gradient-to-b from-gray-800 to-black text-white"
+      className="w-full h-screen bg-[#111111] text-white"
     >
       <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full">
         <div className="flex flex-col justify-center h-full">
@@ -13,13 +13,13 @@ const About = () => {
               About
             </p>
           </div>
-          <p className="text-white-500 py-4 max-w-md">
+          <p className="text-white-500 font-bold text-lg py-4 max-w-md">
             I am a fullstack developer with over a year of experience. I have a
             strong foundation in both front-end and back-end development. I am
             proficient in languages such as HTML, CSS and JavaScript and have
             experience working with popular framework like React.
           </p>
-          <p className="text-white-500 py-4 max-w-md">
+          <p className="text-white-500 font-bold text-lg py-4 max-w-md">
             In addition to my technical skills, I am also a strong communicator
             and problem-solver. I enjoy collaborating with cross-functional
             teams and am always seeking to improve my skills and stay up-to-date
