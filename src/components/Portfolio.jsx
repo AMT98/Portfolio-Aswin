@@ -42,7 +42,7 @@ const Portfolio = () => {
       demo: (
         <a
           className="w-1/2 px-6 py-3 m-4"
-          href="https://github.com/AMT98/Portfolio-Aswin"
+          href="https://aswinmalla.netlify.app"
           target="_blank"
           rel="noreferrer"
         >
