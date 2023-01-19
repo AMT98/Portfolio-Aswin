@@ -2,16 +2,16 @@ Portfolio Website
 
 Welcome to my portfolio website repository! This website was built to showcase my skills and experience as a developer.
 
-Link to live page: <a href="https://aswinmalla.netlify.app/">Click me! </a>
+Link to live page : <a href="https://aswinmalla.netlify.app/">Click me! </a>
 
-Built With
+Built With -
 
-React - JavaScript library for building user interfaces
+~ React - JavaScript library for building user interfaces
 
-TailwindCSS - Utility-first CSS framework
+~ TailwindCSS - Utility-first CSS framework
 
-JavaScript - Programming language
+~ JavaScript - Programming language
 
-HTML - Markup language
+~ HTML - Markup language
 
-CSS - Stylesheet language
+~ CSS - Stylesheet language

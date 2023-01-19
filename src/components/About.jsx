@@ -12,28 +12,32 @@ const About = () => {
           </div>
           <div className="flex flex-col sm:flex-row">
             <div>
-              <p className="text-white-500 font-bold text-md py-4 max-w-md">
-                I am a fullstack developer with over a year of experience. I
-                have a strong foundation in both front-end and back-end
-                development. I am proficient in languages such as HTML, CSS, and
-                JavaScript and have experience working with popular framework
-                like React.
+              <p className="text-white-500 font-bold md:text-md text-sm py-4 max-w-md">
+                I am a full-stack developer with over a year of experience
+                working with the PERN stack (PostgreSQL, Express, React, and
+                Node.js). I have a passion for creating efficient and visually
+                pleasing web applications. I am constantly seeking to expand my
+                knowledge and stay up to date with the latest web development
+                technologies.
               </p>
-              <p className="text-white-500 font-bold text-md py-4 max-w-md">
-                In addition to my technical skills, I am also a strong
-                communicator and problem-solver. I enjoy collaborating with
-                cross-functional teams and am always seeking to improve my
-                skills and stay up-to-date with the latest technologies. If you
-                are looking for a reliable and skilled fullstack developer, I
-                would love the opportunity to discuss how my skills and
-                experience can benefit your team.
+              <p className="text-white-500 font-bold md:text-md text-sm py-4 max-w-md">
+                I have experience in developing responsive front-end using React
+                and TailwindCSS and a solid understanding of HTML, CSS, and
+                JavaScript. On the back-end, I have experience with Node.js,
+                Express, and PostgreSQL. I am a team player and have excellent
+                communication skills, which have helped me to work effectively
+                with remote teams. I am also a quick learner and am always
+                looking for new challenges. I am excited to continue to develop
+                my skills and work on new and exciting projects. When I am not
+                coding, I enjoy reading about new technologies, learning new
+                programming languages, and spending time with my family.
               </p>
             </div>
             <div className="w-5/12 ">
               <img
                 src={HeroImage}
                 alt="profilepic"
-                className="shadow-xl rounded-full max-w-full h-auto align-middle opacity-50 hover:opacity-100 hover:scale-105"
+                className="shadow-xl rounded-full max-w-full h-auto align-middle opacity-50 hover:opacity-100 hover:scale-95"
               />
             </div>
           </div>
