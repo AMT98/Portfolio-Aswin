@@ -13,13 +13,6 @@ const Contact = () => {
           <p className="text-4xl font-bold inline border-b-4 border-gray-500 text-[#00CCAF]">
             Contact
           </p>
-          <p className="py-6 text-[#838DAB]">Let's start a conversation</p>
-          <div className="py-1">
-            <span className="text-[#16A6DE]">Email:</span>
-            <h1 className="mb-2 mt-10* text-[#838DAB]">aswinmalla12@gmail.com</h1>
-            <span className="text-[#16A6DE]">Phone:</span>
-            <h1 className="pb-6 text-[#838DAB]">(720)-418-1221</h1>
-          </div>
         </div>
         <div className=" flex justify-center items-center">
           <form
@@ -27,6 +20,13 @@ const Contact = () => {
             method="POST"
             className=" flex flex-col w-full md:w-1/2"
           >
+          <p className="py-2 text-[#838DAB]">Let's start a conversation</p>
+          <div className="py-1">
+            <span className="text-[#16A6DE]">Email:</span>
+            <h1 className="mb-2 mt-10* text-[#838DAB]">aswinmalla12@gmail.com</h1>
+            <span className="text-[#16A6DE]">Phone:</span>
+            <h1 className="pb-3 text-[#838DAB]">(720)-418-1221</h1>
+          </div>
             <h1 className="text-2xl mb-4 text-[#00CCAF]">
               Please fill out all sections
             </h1>
@@ -48,7 +48,7 @@ const Contact = () => {
               required
               name="message"
               placeholder="Enter your message"
-              rows="10"
+              rows="6"
               className="p-2 bg-transparent border-2 rounded-md text-white focus:outline-none"
             ></textarea>
 

@@ -29,8 +29,8 @@ const About = () => {
                 with remote teams. I am also a quick learner and am always
                 looking for new challenges. I am excited to continue to develop
                 my skills and work on new and exciting projects. When I am not
-                coding, I enjoy reading about new technologies, learning new
-                programming languages, and spending time with my family.
+                coding, I enjoy reading about new technologies, hiking, working
+                out, cooking, and spending time with my family.
               </p>
             </div>
             <div className="w-5/12 ">
