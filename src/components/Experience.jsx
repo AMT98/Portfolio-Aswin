@@ -4,10 +4,11 @@ import html from "../assets/html.png";
 import css from "../assets/css.png";
 import javascript from "../assets/javascript.png";
 import reactImage from "../assets/react.png";
-import nextjs from "../assets/nextjs.png";
+import Postgresql from "../assets/Postgresql.png";
 import github from "../assets/github.png";
 import tailwind from "../assets/tailwind.png";
 import node from "../assets/node.png"
+import express from "../assets/node.png"
 
 const Experience = () => {
   const techs = [
@@ -43,9 +44,9 @@ const Experience = () => {
     },
     {
       id: 6,
-      src: nextjs,
-      title: "Next JS",
-      style: "shadow-white",
+      src: Postgresql,
+      title: "PostgreSQL",
+      style: "shadow-sky-800",
     },
     {
       id: 7,
@@ -57,6 +58,12 @@ const Experience = () => {
       id: 8,
       src: node,
       title: "Node JS",
+      style: "shadow-lime-400",
+    },
+    {
+      id: 9,
+      src: express,
+      title: "Express JS",
       style: "shadow-lime-400",
     },
   ];
@@ -73,14 +80,14 @@ const Experience = () => {
           </p>
         </div>
 
-        <div className="w-10/12 h-1/4 grid grid-cols-3 sm:grid-cols-3 gap-8 mt-8 text-center items-center py-1 px-1 sm:px-0">
+        <div className="w-max h-max grid grid-cols-3 sm:grid-cols-4 gap-8 mt-8 text-center items-center p-4 px-2 sm:px-0">
           {techs.map(({ id, src, title, style }) => (
             <div
               key={id}
-              className={`shadow-md hover:scale-105 duration-500 py-2 rounded-3xl ${style}`}
+              className={`shadow-md hover:scale-105 duration-500 md:p-4 p-1 rounded-3xl ${style}`}
             >
-              <img src={src} alt="" className="w-10 mx-auto" />
-              <p className="mt-4">{title}</p>
+              <img src={src} alt="" className="w-6 mx-auto " />
+              <p className="mt-4 text-sm">{title}</p>
             </div>
           ))}
         </div>

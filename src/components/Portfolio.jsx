@@ -178,7 +178,7 @@ const Portfolio = () => {
           {portfolios.map(({ id, src, demo, code, title }) => (
             <div
               key={id}
-              className="shadow-md shadow-gray-200 rounded-xl hover:scale-105 text-[white] hover:text-[#00CCAF]"
+              className="shadow-md shadow-gray-200 rounded-xl hover:scale-95 text-[white] hover:text-[#00CCAF]"
             >
               <img src={src} alt="" className="rounded-md duration-200 " />
               <div className="flex items-center justify-center text-[#00CCAF] font-bold">{title}</div>

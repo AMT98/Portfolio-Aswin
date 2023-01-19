@@ -17,7 +17,7 @@ const Home = () => {
             Aswin Malla.
           </h3>
           <h3 className="text-[#8892B0] md:text-5xl text-2xl font-bold py-4 max-w-7xl">
-           A Full-stack Developer
+           A PERN-stack Developer
           </h3>
           <div >
             <p className="md:text-2xl sm:text-xl max-w-7xl  font-bold text-[#8892b0]">
@@ -25,9 +25,9 @@ const Home = () => {
               <Typed
                 className="md:text-2xl sm:text-xl text-xl sm:max-w-lg font-bold py-1 ml-2 text-[#5CEACA]"
                 strings={[
-                  "web developer.",
+                  "software developer.",
                   "problem solver.",
-                  "designer.",
+                  "web developer.",
                   "team player.",
                 ]}
                 typeSpeed={100}
