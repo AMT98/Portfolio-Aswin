@@ -12,14 +12,14 @@ const About = () => {
           </div>
           <div className="flex flex-col sm:flex-row">
             <div>
-              <p className="text-white-500 font-bold text-lg py-4 max-w-md">
+              <p className="text-white-500 font-bold text-md py-4 max-w-md">
                 I am a fullstack developer with over a year of experience. I
                 have a strong foundation in both front-end and back-end
                 development. I am proficient in languages such as HTML, CSS, and
                 JavaScript and have experience working with popular framework
                 like React.
               </p>
-              <p className="text-white-500 font-bold text-lg py-4 max-w-md">
+              <p className="text-white-500 font-bold text-md py-4 max-w-md">
                 In addition to my technical skills, I am also a strong
                 communicator and problem-solver. I enjoy collaborating with
                 cross-functional teams and am always seeking to improve my
@@ -33,7 +33,7 @@ const About = () => {
               <img
                 src={HeroImage}
                 alt="profilepic"
-                className="shadow-xl rounded-full max-w-full h-auto align-middle opacity-50 hover:opacity-100"
+                className="shadow-xl rounded-full max-w-full h-auto align-middle opacity-50 hover:opacity-100 hover:scale-105"
               />
             </div>
           </div>

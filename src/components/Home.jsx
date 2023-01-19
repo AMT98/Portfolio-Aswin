@@ -8,29 +8,30 @@ const Home = () => {
     <div name="home" className="h-screen w-full bg-[#0A192F]">
       <div className="max-w-screen-xl mx-auto flex flex-col items-center justify-center h-full w-full px-4 md:flex-row">
         <div className="flex flex-col justify-center h-full">
-          <h2 className=" text-xl font-bold text-[#5CEACA] ">
+          <h2 className="md:text-2xl text-lg font-bold text-[#5CEACA] ">
             Hi
             <span className="wave">👋</span>
             my name is,
           </h2>
-          <h3 className="text-[#CCD6f6] md:text-8xl text-3xl font-bold py-4 max-w-7xl">
+          <h3 className="text-[#CCD6f6] md:text-9xl text-5xl font-bold py-4 max-w-7xl ">
             Aswin Malla.
-            <br></br>
-            Full-stack Developer
+          </h3>
+          <h3 className="text-[#8892B0] md:text-5xl text-2xl font-bold py-4 max-w-7xl">
+           A Full-stack Developer
           </h3>
           <div >
-            <p className="md:text-4xl sm:text-xl max-w-7xl  font-bold text-[#8892b0]">
+            <p className="md:text-2xl sm:text-xl max-w-7xl  font-bold text-[#8892b0]">
               I am a
               <Typed
-                className="md:text-4xl sm:text-xl text-xl sm:max-w-lg font-bold py-1 ml-2 text-[#5CEACA]"
+                className="md:text-2xl sm:text-xl text-xl sm:max-w-lg font-bold py-1 ml-2 text-[#5CEACA]"
                 strings={[
                   "web developer.",
                   "problem solver.",
                   "designer.",
                   "team player.",
                 ]}
-                typeSpeed={130}
-                backSpeed={150}
+                typeSpeed={100}
+                backSpeed={50}
                 loop
               />
             </p>
