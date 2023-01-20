@@ -30,7 +30,7 @@ const NavBar = () => {
   ];
   const handleLogo = () => window.location.reload();
   return (
-    <div className="flex justify-between items-center w-full h-20 px-4 text-[#C2CCEB] bg-[#0A192F] fixed cursor-pointer">
+    <div className="flex justify-between items-center w-full h-20 px-4 text-[#C2CCEB] bg-[#0A192F] fixed cursor-pointer z-10">
       <div>
         {/* <h1 className="text-5xl font-signature ml-2 text-[#0EC8AD]">AMT</h1> */}
         <img onClick={handleLogo} className="w-12 h-auto ml-6 mt-3"  src={websiteLogo} alt="logo" />
