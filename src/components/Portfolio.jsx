@@ -1,4 +1,4 @@
-import React from "react";
+import React, {useEffect} from "react";
 import strangersThings from "../assets/portfolio/ST.PNG";
 import guessingNum from "../assets/portfolio/guessnum.PNG";
 import tictactoe from "../assets/portfolio/tikitak.PNG";
@@ -7,8 +7,13 @@ import qwerty from "../assets/portfolio/qwerty.PNG";
 import personalWebsiteV2 from "../assets/portfolio/portfolioV2.PNG";
 import {MdPreview} from 'react-icons/md'
 import { FaGithub } from "react-icons/fa";
+import Aos from 'aos'
+import "aos/dist/aos.css"
 
 const Portfolio = () => {
+  useEffect(() => {
+    Aos.init({ duration: 1500 });
+  }, [])
   const portfolios = [
     {
       id: 1,
@@ -168,17 +173,18 @@ const Portfolio = () => {
       className="bg-[#0A192F] w-full md:h-screen"
     >
       <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full">
-        <div className="pb-8">
+        <div className="pb-8" data-aos="flip-left">
           <p className="text-4xl font-bold inline border-b-4 border-gray-500 text-[#00CCAF]">
             Portfolio
           </p>
         </div>
 
-        <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0">
+        <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0" >
           {portfolios.map(({ id, src, demo, code, title }) => (
             <div
               key={id}
               className="shadow-md shadow-gray-200 rounded-xl hover:scale-95 text-[white] hover:text-[#00CCAF]"
+              data-aos="flip-up"
             >
               <img src={src} alt="" className="rounded-md duration-200 " />
               <div className="flex items-center justify-center text-[#00CCAF] font-bold">{title}</div>

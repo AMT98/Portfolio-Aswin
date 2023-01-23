@@ -1,27 +1,32 @@
-import React from "react";
-
+import React, {useEffect} from "react";
+import Aos from 'aos'
+import "aos/dist/aos.css"
 import { MdOutlineSend } from "react-icons/md";
 
 const Contact = () => {
+  useEffect(() => {
+    Aos.init({ duration: 1500 });
+  }, [])
   return (
     <div
       name="contact"
       className="w-full h-screen bg-[#0A192F] p-4 text-white"
     >
       <div className="flex flex-col p-4 justify-center max-w-screen-lg mx-auto h-full">
-        <div className="pb-8">
+        <div className="pb-8" data-aos="flip-right">
           <p className="text-4xl font-bold inline border-b-4 border-gray-500 text-[#00CCAF]">
             Contact
           </p>
         </div>
-        <div className=" flex justify-center items-center">
+        <div className=" flex justify-center items-center" >
           <form
             action="https://getform.io/f/a012141e-4460-45a9-9393-bb60cc0767c2"
             method="POST"
             className=" flex flex-col w-full md:w-1/2"
+            data-aos="fade-up-left"
           >
-          <p className="py-2 text-[#838DAB]">Let's start a conversation</p>
-          <div className="py-1">
+          <p className="py-2 text-[#838DAB]" data-aos="zoom-in">Let's start a conversation</p>
+          <div className="py-1" data-aos="zoom-in">
             <span className="text-[#16A6DE]">Email:</span>
             <h1 className="mb-2 mt-10* text-[#838DAB]">aswinmalla12@gmail.com</h1>
             <span className="text-[#16A6DE]">Phone:</span>

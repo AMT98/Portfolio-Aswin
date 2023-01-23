@@ -1,5 +1,4 @@
-import React from "react";
-
+import React, {useEffect} from "react";
 import html from "../assets/html.png";
 import css from "../assets/css.png";
 import javascript from "../assets/javascript.png";
@@ -9,8 +8,13 @@ import github from "../assets/github.png";
 import tailwind from "../assets/tailwind.png";
 import node from "../assets/node.png"
 import express from "../assets/node.png"
+import Aos from 'aos'
+import "aos/dist/aos.css"
 
 const Experience = () => {
+  useEffect(() => {
+    Aos.init({ duration: 1500 });
+  }, [])
   const techs = [
     {
       id: 1,
@@ -85,6 +89,7 @@ const Experience = () => {
             <div
               key={id}
               className={`shadow-md hover:scale-105 duration-500 md:p-4 p-1 rounded-3xl ${style}`}
+              data-aos="flip-right"
             >
               <img src={src} alt="" className="w-6 mx-auto " />
               <p className="mt-4 text-sm">{title}</p>
