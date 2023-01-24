@@ -1,12 +1,8 @@
-import React, {useEffect} from "react";
-import Aos from 'aos'
+import React from "react";
 import HeroImage from "../assets/heroImage.png";
 
 
 const About = () => {
-  useEffect(() => {
-    Aos.init({ duration: 1500 });
-  }, [])
   return (
     <div name="about" className="w-full h-screen bg-[#0A192F] text-[#838DAB]">
       <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full">

@@ -1,11 +1,7 @@
-import React, {useEffect} from "react";
-import Aos from 'aos'
+import React from "react";
 import { MdOutlineSend } from "react-icons/md";
 
 const Contact = () => {
-  useEffect(() => {
-    Aos.init({ duration: 1500 });
-  }, [])
   return (
     <div
       name="contact"

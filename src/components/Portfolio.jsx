@@ -7,7 +7,8 @@ import qwerty from "../assets/portfolio/qwerty.PNG";
 import personalWebsiteV2 from "../assets/portfolio/portfolioV2.PNG";
 import {MdPreview} from 'react-icons/md'
 import { FaGithub } from "react-icons/fa";
-import Aos from 'aos'
+// import Aos from 'aos'
+var Aos = require('aos');
 // import 'aos/dist/aos.css'
 
 const Portfolio = () => {

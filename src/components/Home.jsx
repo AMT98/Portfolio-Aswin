@@ -1,13 +1,9 @@
-import React, {useEffect} from "react";
-import Aos from 'aos'
+import React from "react";
 import { MdOutlineSend } from "react-icons/md";
 import { Link } from "react-scroll";
 import Typed from "react-typed";
 
 const Home = () => {
-  useEffect(() => {
-    Aos.init({ duration: 2000 });
-  }, [])
   return (
     <div name="home" className="h-screen w-full bg-[#0A192F]">
       <div className="max-w-screen-xl mx-auto flex flex-col items-center justify-center h-full w-full px-4 md:flex-row">

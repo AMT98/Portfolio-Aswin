@@ -1,4 +1,4 @@
-import React, {useEffect} from "react";
+import React from "react";
 import html from "../assets/html.png";
 import css from "../assets/css.png";
 import javascript from "../assets/javascript.png";
@@ -8,12 +8,8 @@ import github from "../assets/github.png";
 import tailwind from "../assets/tailwind.png";
 import node from "../assets/node.png"
 import express from "../assets/node.png"
-import Aos from 'aos'
 
 const Experience = () => {
-  useEffect(() => {
-    Aos.init({ duration: 1500 });
-  }, [])
   const techs = [
     {
       id: 1,
@@ -77,8 +73,8 @@ const Experience = () => {
       className="bg-[#0A192F] w-full h-screen"
     >
       <div className="max-w-screen-lg mx-auto p-4 flex flex-col justify-center w-full h-full text-white">
-        <div>
-          <p className="text-4xl font-bold border-b-4 border-gray-500 p-2  inline text-[#00CCAF]">
+        <div data-aos="fade-right">
+          <p className="text-4xl font-bold border-b-4 border-gray-500 p-2  inline text-[#00CCAF]" >
             Experience
           </p>
         </div>
