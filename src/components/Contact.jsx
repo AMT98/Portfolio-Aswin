@@ -1,6 +1,5 @@
 import React, {useEffect} from "react";
 import Aos from 'aos'
-import "aos/dist/aos.css"
 import { MdOutlineSend } from "react-icons/md";
 
 const Contact = () => {

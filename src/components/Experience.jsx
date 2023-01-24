@@ -9,7 +9,6 @@ import tailwind from "../assets/tailwind.png";
 import node from "../assets/node.png"
 import express from "../assets/node.png"
 import Aos from 'aos'
-import "aos/dist/aos.css"
 
 const Experience = () => {
   useEffect(() => {

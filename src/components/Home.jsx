@@ -1,6 +1,5 @@
 import React, {useEffect} from "react";
 import Aos from 'aos'
-import "aos/dist/aos.css"
 import { MdOutlineSend } from "react-icons/md";
 import { Link } from "react-scroll";
 import Typed from "react-typed";
