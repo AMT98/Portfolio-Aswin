@@ -8,7 +8,7 @@ const Contact = () => {
       className="w-full h-screen bg-[#0A192F] p-4 text-white"
     >
       <div className="flex flex-col p-4 justify-center max-w-screen-lg mx-auto h-full">
-        <div className="pb-8" data-aos="flip-right">
+        <div className="pb-8" data-aos="fade-right">
           <p className="text-4xl font-bold inline border-b-4 border-gray-500 text-[#00CCAF]">
             Contact
           </p>
@@ -18,7 +18,7 @@ const Contact = () => {
             action="https://getform.io/f/a012141e-4460-45a9-9393-bb60cc0767c2"
             method="POST"
             className=" flex flex-col w-full md:w-1/2"
-            data-aos="fade-up-left"
+            data-aos="flip-left"
           >
           <p className="py-2 text-[#838DAB]" data-aos="zoom-in">Let's start a conversation</p>
           <div className="py-1" data-aos="zoom-in">
