@@ -60,7 +60,9 @@ const Home = () => {
                 <MdOutlineSend size={25} className="ml-1" />
               </span>
             </Link>
-            <Link
+            <a
+              href="resume.pdf"
+              target=" _blank"
               smooth
               duration={500}
               className="group text-[#0A192F] font-bold w-fit px-6 py-4 flex items-center rounded-3xl hover:scale-105 bg-gradient-to-r from-[#5CEACA] to-[#00CCAF] cursor-pointer "
@@ -69,7 +71,7 @@ const Home = () => {
               <span className="group-hover:translate-y-2 duration-300 ">
                 <MdGetApp size={25} className="ml-1" />
               </span>
-            </Link>
+            </a>
           </div>
         </div>
       </div>
