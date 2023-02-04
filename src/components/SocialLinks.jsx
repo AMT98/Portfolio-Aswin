@@ -40,10 +40,11 @@ const SocialLinks = () => {
           Resume <BsFillPersonLinesFill size={30} />
         </>
       ),
-      // href: "/resume.pdf" make sure to save resume in public folder
+      // href: "/resume.pdf"
       // download: true
-      href: "https://google.com",
+      href: "/resume.pdf",
       style: "rounded-br-md",
+      download: true,
     },
   ];
   return (
