@@ -16,7 +16,9 @@ const footer = () => {
         </span>
         <div className="flex mt-4 space-x-6 sm:justify-center sm:mt-0">
           <a
-            href="https://linkedin.com"
+            href="https://www.linkedin.com/in/aswinmalla/"
+            target="_blank"
+            rel="noreferrer"
             className="text-[#0A192F] hover:text-gray-900 dark:hover:text-white"
           >
             <svg
@@ -25,7 +27,6 @@ const footer = () => {
               viewBox="0 0 24 24"
               aria-hidden="true"
             >
-              
               <>
                 LinkedIn <FaLinkedin size={30} />
               </>
@@ -34,6 +35,8 @@ const footer = () => {
           </a>
           <a
             href="https://github.com/amt98"
+            target="_blank"
+            rel="noreferrer"
             className="text-[#0A192F] hover:text-gray-900 dark:hover:text-white"
           >
             <svg
@@ -42,10 +45,9 @@ const footer = () => {
               viewBox="0 0 24 24"
               aria-hidden="true"
             >
-              
               <>
-          Github <FaGithub size={30} />
-        </>
+                Github <FaGithub size={30} />
+              </>
             </svg>
             <span className="sr-only">GitHub page</span>
           </a>
@@ -59,15 +61,16 @@ const footer = () => {
               viewBox="0 0 24 24"
               aria-hidden="true"
             >
-              
               <>
-          Mail <HiOutlineMail size={30} />
-        </>
+                Mail <HiOutlineMail size={30} />
+              </>
             </svg>
             <span className="sr-only">Mail</span>
           </a>
           <a
-            href="https://google.com"
+            href="/resume.pdf"
+            target="_blank"
+            rel="noreferrer"
             className="text-[#0A192F] hover:text-gray-900 dark:hover:text-white"
           >
             <svg
@@ -76,10 +79,9 @@ const footer = () => {
               viewBox="0 0 24 24"
               aria-hidden="true"
             >
-              
               <>
-          Resume <BsFillPersonLinesFill size={30} />
-        </>
+                Resume <BsFillPersonLinesFill size={30} />
+              </>
             </svg>
             <span className="sr-only">Resume</span>
           </a>
