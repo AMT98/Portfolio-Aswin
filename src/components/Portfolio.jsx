@@ -41,10 +41,14 @@ const Portfolio = () => {
           <FaGithub size={25} />
         </a>
       ),
-      modal: <Modal 
-      modalDescription="Stranger's Things"
-      modalTxt= "Stranger's Things"
-      />,
+      modal: (
+        <Modal
+          modalTxt="Stranger's Things"
+          modalDescription="Developed a standard CRUD app with private messaging tools,
+          developed a front end UI utilizing React.JS for a community web application pulling from an external API 
+          Tech: React | Router | Html | CSS | JavaScript | Bootstrap | Netlify"
+        />
+      ),
     },
     {
       id: 2,
@@ -70,10 +74,12 @@ const Portfolio = () => {
           <FaGithub size={25} />
         </a>
       ),
-      modal: <Modal 
-      modalDescription="Personal Website"
-      modalTxt= "Personal Website"
-      />,
+      modal: (
+        <Modal
+          modalTxt="Personal Website"
+          modalDescription="Developed a personal website with utilizing React.JS. Tech: React | Router | Html | CSS | JavaScript | Tailwind | Netlify "
+        />
+      ),
     },
     {
       id: 3,
@@ -99,10 +105,12 @@ const Portfolio = () => {
           <FaGithub size={25} />
         </a>
       ),
-      modal: <Modal 
-      modalDescription="Art Collector"
-      modalTxt= "Art Collector"
-      />,
+      modal: (
+        <Modal
+          modalTxt="Art Collector"
+          modalDescription="Created a simple search engine for the Harvard Art Museums"
+        />
+      ),
     },
     {
       id: 4,
@@ -128,10 +136,12 @@ const Portfolio = () => {
           <FaGithub size={25} />
         </a>
       ),
-      modal: <Modal 
-      modalDescription="Tic-Tac-Toe"
-      modalTxt= "Tic-Tac-Toe"
-      />,
+      modal: (
+        <Modal
+          modalTxt="Tic-Tac-Toe"
+          modalDescription="Created an arcade game with vanilla JAVASCRIPT, HTML, and CSS."
+        />
+      ),
     },
     {
       id: 5,
@@ -157,10 +167,12 @@ const Portfolio = () => {
           <FaGithub size={25} />
         </a>
       ),
-      modal: <Modal 
-      modalDescription="Stranger's Things"
-      modalTxt= "Stranger's Things"
-      />,
+      modal: (
+        <Modal
+          modalTxt="QWERTY"
+          modalDescription="Created a static e-commerce site implementing HTML and CSS"
+        />
+      ),
     },
     {
       id: 6,
@@ -186,10 +198,12 @@ const Portfolio = () => {
           <FaGithub size={25} />
         </a>
       ),
-      modal: <Modal 
-      modalDescription="Stranger's Things"
-      modalTxt= "Stranger's Things"
-      />,
+      modal: (
+        <Modal
+          modalTxt="Guess the number"
+          modalDescription="Created a guessing number game implementing vanilla JAVASCRIPT, HTML, and CSS"
+        />
+      ),
     },
   ];
 
