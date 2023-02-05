@@ -7,6 +7,7 @@ import qwerty from "../assets/portfolio/qwerty.PNG";
 import personalWebsiteV2 from "../assets/portfolio/portfolioV2.PNG";
 import { MdPreview } from "react-icons/md";
 import { FaGithub } from "react-icons/fa";
+import Modal from "./Modal";
 // import Aos from 'aos'
 var Aos = require("aos");
 // import 'aos/dist/aos.css'
@@ -40,6 +41,10 @@ const Portfolio = () => {
           <FaGithub size={25} />
         </a>
       ),
+      modal: <Modal 
+      modalDescription="Stranger's Things"
+      modalTxt= "Stranger's Things"
+      />,
     },
     {
       id: 2,
@@ -65,6 +70,10 @@ const Portfolio = () => {
           <FaGithub size={25} />
         </a>
       ),
+      modal: <Modal 
+      modalDescription="Personal Website"
+      modalTxt= "Personal Website"
+      />,
     },
     {
       id: 3,
@@ -90,6 +99,10 @@ const Portfolio = () => {
           <FaGithub size={25} />
         </a>
       ),
+      modal: <Modal 
+      modalDescription="Art Collector"
+      modalTxt= "Art Collector"
+      />,
     },
     {
       id: 4,
@@ -115,6 +128,10 @@ const Portfolio = () => {
           <FaGithub size={25} />
         </a>
       ),
+      modal: <Modal 
+      modalDescription="Tic-Tac-Toe"
+      modalTxt= "Tic-Tac-Toe"
+      />,
     },
     {
       id: 5,
@@ -140,6 +157,10 @@ const Portfolio = () => {
           <FaGithub size={25} />
         </a>
       ),
+      modal: <Modal 
+      modalDescription="Stranger's Things"
+      modalTxt= "Stranger's Things"
+      />,
     },
     {
       id: 6,
@@ -165,6 +186,10 @@ const Portfolio = () => {
           <FaGithub size={25} />
         </a>
       ),
+      modal: <Modal 
+      modalDescription="Stranger's Things"
+      modalTxt= "Stranger's Things"
+      />,
     },
   ];
 
@@ -178,19 +203,20 @@ const Portfolio = () => {
         </div>
 
         <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0">
-          {portfolios.map(({ id, src, demo, code, title }) => (
+          {portfolios.map(({ id, src, demo, code, title, modal }) => (
             <div
               key={id}
-              className="shadow-md shadow-gray-200 rounded-xl hover:scale-105 cursor-pointer text-[white] hover:text-[#00CCAF]"
+              className="shadow-md shadow-gray-200 rounded-xl cursor-pointer text-[white] hover:text-[#00CCAF]"
               data-aos="flip-up"
             >
               <img src={src} alt="" className="rounded-md duration-200 " />
               <div className="flex items-center justify-center text-[#00CCAF] font-bold">
                 {title}
               </div>
-              <div className="flex items-center ml-7">
+              <div className="flex items-center ">
                 {demo}
                 {code}
+                {modal}
               </div>
             </div>
           ))}
