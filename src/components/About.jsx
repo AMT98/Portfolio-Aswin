@@ -14,12 +14,11 @@ const About = () => {
           <div className="flex flex-col sm:flex-row">
             <div data-aos="fade-right">
               <p className="text-white-500 font-bold md:text-base text-xs py-4 max-w-md">
-                I am a full-stack developer with over a year of experience
-                working with the PERN stack (PostgreSQL, Express, React, and
-                Node.js). I have a passion for creating efficient and visually
-                pleasing web applications. I am constantly seeking to expand my
-                knowledge and stay up to date with the latest web development
-                technologies.
+                I am a full-stack developer with experience working with the
+                PERN stack (PostgreSQL, Express, React, and Node.js). I have a
+                passion for creating efficient and visually pleasing web
+                applications. I am constantly seeking to expand my knowledge and
+                stay up to date with the latest web development technologies.
               </p>
               <p className="text-white-500 font-bold md:text-base text-xs py-4 max-w-md">
                 I have experience in developing responsive front-end using React
