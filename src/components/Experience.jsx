@@ -15,55 +15,55 @@ const Experience = () => {
       id: 1,
       src: html,
       title: "HTML",
-      style: "shadow-orange-500",
+      style: "border-[#BC5B1A]",
     },
     {
       id: 2,
       src: css,
       title: "CSS",
-      style: "shadow-blue-500",
+      style: "border-[#336FD2]",
     },
     {
       id: 3,
       src: javascript,
       title: "JavaScript",
-      style: "shadow-yellow-500",
+      style: "border-[#C3980E]",
     },
     {
       id: 4,
       src: reactImage,
       title: "React",
-      style: "shadow-blue-600",
+      style: "border-[#336FD2]",
     },
     {
       id: 5,
       src: tailwind,
       title: "Tailwind",
-      style: "shadow-sky-400",
+      style: "border-[#2880AC]",
     },
     {
       id: 6,
       src: Postgresql,
       title: "PostgreSQL",
-      style: "shadow-sky-800",
+      style: "border-[#08486C]",
     },
     {
       id: 7,
       src: github,
       title: "GitHub",
-      style: "shadow-gray-400",
+      style: "border-[#E5E7EB]",
     },
     {
       id: 8,
       src: node,
       title: "Node JS",
-      style: "shadow-lime-400",
+      style: "border-[#336FD2]",
     },
     {
       id: 9,
       src: express,
       title: "Express JS",
-      style: "shadow-lime-400",
+      style: "border-[#7BAF32]",
     },
   ];
 
@@ -80,12 +80,12 @@ const Experience = () => {
           {techs.map(({ id, src, title, style }) => (
             <div
               key={id}
-              className={`shadow-md hover:scale-105 duration-500 md:p-4 p-1 rounded-3xl ${style}`}
+              className={`shadow-md hover:scale-105 duration-500 md:p-4 border-b-4 p-1 ${style} rounded-md`}
               data-aos="fade-up"
               data-aos-duration="1000"
             >
-              <img src={src} alt="" className="w-6 mx-auto " />
               <p className="mt-4 text-sm">{title}</p>
+              <img src={src} alt="" className="w-6 mx-auto " />
             </div>
           ))}
         </div>
