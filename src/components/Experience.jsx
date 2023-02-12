@@ -71,7 +71,7 @@ const Experience = () => {
     <div name="experience" className="bg-[#0a1527] w-full h-screen">
       <div className="max-w-screen-lg mx-auto p-4 flex flex-col justify-center w-full h-full text-white">
         <div data-aos="fade-up" data-aos-duration="1000">
-          <p className="text-4xl font-bold border-b-4 border-gray-500 p-2  inline text-[#00CCAF]">
+          <p className="text-4xl font-bold border-b-4 border-l-4 rounded-md border-[#00CCAF] p-2  inline text-[#00CCAF]">
             Experience
           </p>
         </div>

@@ -6,13 +6,13 @@ const About = () => {
     <div name="about" className="w-full h-screen bg-[#0a1527] text-[#838DAB]">
       <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full">
         <div className="flex flex-col justify-center h-full">
-          <div className="pb-8" data-aos="fade-up" data-aos-duration= '1000'>
-            <p className="text-4xl font-bold inline border-b-4 border-gray-500 text-[#00CCAF]">
+          <div className="pb-8" data-aos="fade-up" data-aos-duration="1000">
+            <p className="text-4xl font-bold border-b-4 border-l-4 rounded-md border-[#00CCAF] p-2  inline text-[#00CCAF]">
               About
             </p>
           </div>
           <div className="flex flex-col sm:flex-row">
-            <div data-aos="fade-up" data-aos-duration= '1000'>
+            <div data-aos="fade-up" data-aos-duration="1000">
               <p className="text-white-500 font-bold md:text-base text-xs py-4 max-w-md">
                 I am a full-stack developer with experience working with the
                 PERN stack (PostgreSQL, Express, React, and Node.js). I have a
@@ -33,11 +33,15 @@ const About = () => {
                 out, cooking, and spending time with my family.
               </p>
             </div>
-            <div className="w-7/12 " data-aos="fade-up" data-aos-duration= '1000'>
+            <div
+              className="w-7/12 "
+              data-aos="fade-up"
+              data-aos-duration="1000"
+            >
               <img
                 src={HeroImage}
                 alt="profilepic"
-                className="shadow-xl rounded-full max-w-full h-auto align-middle"
+                className="rounded-full max-w-full h-auto align-middle"
               />
             </div>
           </div>

@@ -43,7 +43,7 @@ const SocialLinks = () => {
         </>
       ),
       href: "/resume.pdf",
-      style: "rounded-full",
+      style: "rounded-full hover:text-[white]",
     },
   ];
   return (
@@ -53,14 +53,14 @@ const SocialLinks = () => {
           <li
             key={id}
             className={
-              "flex justify-between items-center w-17 h-14 px-4 ml-[30px] hover:scale-105 mb-2 hover:rounded-full duration-300 bg-gradient-to-r from-[#00CDAE] to-[#00CCAF] " +
+              "flex justify-between items-center w-13 h-14 px-4 ml-[34px] hover:scale-105 mb-2 hover:rounded-full duration-300 bg-transparent bg-gradient-to-r from-[#00CDAE] to-[#00CCAF] " +
               " " +
               style
             }
           >
             <a
               href={href}
-              className="flex justify-between items-center w-full text-[#0A192F] font-bold "
+              className="flex justify-between items-center w-full text-[#0A192F] " 
               target="_blank"
               rel="noreferrer"
             >
