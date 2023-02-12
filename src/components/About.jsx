@@ -3,16 +3,16 @@ import HeroImage from "../assets/heroImage.png";
 
 const About = () => {
   return (
-    <div name="about" className="w-full h-screen bg-[#0A192F] text-[#838DAB]">
+    <div name="about" className="w-full h-screen bg-[#0a1527] text-[#838DAB]">
       <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full">
         <div className="flex flex-col justify-center h-full">
-          <div className="pb-8" data-aos="fade-right">
+          <div className="pb-8" data-aos="fade-up" data-aos-duration= '1000'>
             <p className="text-4xl font-bold inline border-b-4 border-gray-500 text-[#00CCAF]">
               About
             </p>
           </div>
           <div className="flex flex-col sm:flex-row">
-            <div data-aos="fade-right">
+            <div data-aos="fade-up" data-aos-duration= '1000'>
               <p className="text-white-500 font-bold md:text-base text-xs py-4 max-w-md">
                 I am a full-stack developer with experience working with the
                 PERN stack (PostgreSQL, Express, React, and Node.js). I have a
@@ -33,7 +33,7 @@ const About = () => {
                 out, cooking, and spending time with my family.
               </p>
             </div>
-            <div className="w-7/12 " data-aos="fade-left">
+            <div className="w-7/12 " data-aos="fade-up" data-aos-duration= '1000'>
               <img
                 src={HeroImage}
                 alt="profilepic"

@@ -9,49 +9,51 @@ const SocialLinks = () => {
       id: 1,
       child: (
         <>
-          LinkedIn <FaLinkedin size={30} />
+          <FaLinkedin size={30} />
         </>
       ),
       href: "https://www.linkedin.com/in/aswinmalla/",
-      style: "rounded-tr-md",
+      style: "rounded-full",
     },
     {
       id: 2,
       child: (
         <>
-          Github <FaGithub size={30} />
+          <FaGithub size={30} />
         </>
       ),
       href: "https://github.com/amt98",
+      style: "rounded-full",
     },
     {
       id: 3,
       child: (
         <>
-          Mail <HiOutlineMail size={30} />
+          <HiOutlineMail size={30} />
         </>
       ),
       href: "mailto: aswinmalla12@gmail.com",
+      style: "rounded-full",
     },
     {
       id: 4,
       child: (
         <>
-          Resume <BsFillPersonLinesFill size={30} />
+          <BsFillPersonLinesFill size={30} />
         </>
       ),
       href: "/resume.pdf",
-      style: "rounded-br-md",
+      style: "rounded-full",
     },
   ];
   return (
-    <div className="hidden lg:flex flex-col top-[35%] left-0 fixed">
+    <div className="hidden lg:flex flex-col top-[10%] left-0 fixed">
       <ul>
         {links.map(({ child, href, id, link, style, download }) => (
           <li
             key={id}
             className={
-              "flex justify-between items-center w-40 h-14 px-4 ml-[-100px] hover:ml-[-10px] hover:rounded-md duration-300 bg-gradient-to-r from-[#00CDAE] to-[#00CCAF] " +
+              "flex justify-between items-center w-17 h-14 px-4 ml-[30px] hover:scale-105 mb-2 hover:rounded-full duration-300 bg-gradient-to-r from-[#00CDAE] to-[#00CCAF] " +
               " " +
               style
             }

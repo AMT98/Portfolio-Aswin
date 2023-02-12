@@ -10,7 +10,7 @@ const Home = () => {
         <div className="flex flex-col justify-center h-full">
           <h2
             className="md:text-2xl text-lg font-bold text-[#5CEACA] "
-            data-aos="fade-right"
+            data-aos="fade-up" data-aos-duration= '1300'
           >
             Hi
             <span className="wave">👋</span>
@@ -18,20 +18,20 @@ const Home = () => {
           </h2>
           <h3
             className="text-[#CCD6f6] md:text-9xl text-5xl font-bold py-4 max-w-7xl "
-            data-aos="fade-left"
+            data-aos="fade-up" data-aos-duration= '1300'
           >
             Aswin Malla.
           </h3>
           <h3
             className="text-[#8892B0] md:text-5xl text-2xl font-bold py-4 max-w-7xl"
-            data-aos="fade-left"
+            data-aos="fade-up" data-aos-duration= '1300'
           >
             A PERN-stack Developer
           </h3>
           <div>
             <p
               className="md:text-2xl sm:text-xl max-w-7xl  font-bold text-[#8892b0]"
-              data-aos="fade-left"
+              data-aos="fade-up" data-aos-duration= '1300'
             >
               I am a
               <Typed
@@ -48,7 +48,7 @@ const Home = () => {
               />
             </p>
           </div>
-          <div className="py-5 flex flex-row" data-aos="fade-right">
+          <div className="py-5 flex flex-row" data-aos="fade-up" data-aos-duration= '1300'>
             <Link
               to="portfolio"
               smooth

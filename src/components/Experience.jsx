@@ -6,8 +6,8 @@ import reactImage from "../assets/react.png";
 import Postgresql from "../assets/Postgresql.png";
 import github from "../assets/github.png";
 import tailwind from "../assets/tailwind.png";
-import node from "../assets/node.png"
-import express from "../assets/node.png"
+import node from "../assets/node.png";
+import express from "../assets/node.png";
 
 const Experience = () => {
   const techs = [
@@ -68,13 +68,10 @@ const Experience = () => {
   ];
 
   return (
-    <div
-      name="experience"
-      className="bg-[#0A192F] w-full h-screen"
-    >
+    <div name="experience" className="bg-[#0a1527] w-full h-screen">
       <div className="max-w-screen-lg mx-auto p-4 flex flex-col justify-center w-full h-full text-white">
-        <div data-aos="fade-right">
-          <p className="text-4xl font-bold border-b-4 border-gray-500 p-2  inline text-[#00CCAF]" >
+        <div data-aos="fade-up" data-aos-duration="1000">
+          <p className="text-4xl font-bold border-b-4 border-gray-500 p-2  inline text-[#00CCAF]">
             Experience
           </p>
         </div>
@@ -84,7 +81,8 @@ const Experience = () => {
             <div
               key={id}
               className={`shadow-md hover:scale-105 duration-500 md:p-4 p-1 rounded-3xl ${style}`}
-              data-aos="flip-right"
+              data-aos="fade-up"
+              data-aos-duration="1000"
             >
               <img src={src} alt="" className="w-6 mx-auto " />
               <p className="mt-4 text-sm">{title}</p>
@@ -98,15 +96,13 @@ const Experience = () => {
 
 export default Experience;
 
-
-// skills 
-// languages - 
+// skills
+// languages -
 // JSON(es6)
 // html, css, sql
 
-// frameworks- 
+// frameworks-
 // react, node
 
-// tools- 
+// tools-
 // FaBellSlash, github, git, postman, chrome devtools
-
