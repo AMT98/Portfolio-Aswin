@@ -1,4 +1,5 @@
 import React, { useEffect } from "react";
+import fitnessTracker from "../assets/portfolio/fitnessTracker.PNG";
 import strangersThings from "../assets/portfolio/ST.PNG";
 import guessingNum from "../assets/portfolio/guessnum.PNG";
 import tictactoe from "../assets/portfolio/tikitak.PNG";
@@ -19,6 +20,37 @@ const Portfolio = () => {
   const portfolios = [
     {
       id: 1,
+      title: `Fitness Tracker`,
+      src: fitnessTracker,
+      demo: (
+        <a
+          className="w-1/2 px-6 py-3 m-4"
+          href="https://fitnesstraker.netlify.app/myroutines"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <MdPreview size={25} />
+        </a>
+      ),
+      code: (
+        <a
+          className="w-1/2 px-6 py-3 m-4"
+          href="https://github.com/AMT98/FitnessTracker_Front-End"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <FaGithub size={25} />
+        </a>
+      ),
+      modal: (
+        <Modal
+          modalTxt="Fitness Tracker"
+          modalDescription="Implemented full-stack development, including creating RESTful APIs with Express.JS, managing database with PostgreSQL, and building responsive UI with React.JS Tech: Express.JS | Node.JS | PostgreSQL | React| Router | Jest | Tailwind | JavaScript | CSS | Html"
+        />
+      ),
+    },
+    {
+      id: 2,
       title: `Stranger's Things`,
       src: strangersThings,
       demo: (
@@ -51,7 +83,7 @@ const Portfolio = () => {
       ),
     },
     {
-      id: 2,
+      id: 3,
       title: "Personal Website",
       src: personalWebsiteV2,
       demo: (
@@ -82,7 +114,7 @@ const Portfolio = () => {
       ),
     },
     {
-      id: 3,
+      id: 4,
       title: "Art Collector",
       src: artCollector,
       demo: (
@@ -113,7 +145,7 @@ const Portfolio = () => {
       ),
     },
     {
-      id: 4,
+      id: 5,
       title: "Tic-Tac-Toe",
       src: tictactoe,
       demo: (
@@ -144,7 +176,7 @@ const Portfolio = () => {
       ),
     },
     {
-      id: 5,
+      id: 6,
       title: "Qwerty",
       src: qwerty,
       demo: (
@@ -175,7 +207,7 @@ const Portfolio = () => {
       ),
     },
     {
-      id: 6,
+      id: 7,
       title: "Guessing Number",
       src: guessingNum,
       demo: (
