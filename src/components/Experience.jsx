@@ -9,7 +9,8 @@ import tailwind from "../assets/tailwind.png";
 import node from "../assets/node.png";
 import express from "../assets/node.png";
 import typescript from "../assets/typescript.png";
-import stripe from "../assets/stripe.png";
+// import stripe from "../assets/stripe.png";
+import nextjs from "../assets/nextjs.png";
 
 const Experience = () => {
   const techs = [
@@ -74,10 +75,10 @@ const Experience = () => {
       style: "border-[#336FD2]",
     },
     {
-      id: 11,
-      src: stripe,
-      title: "Stripe",
-      style: "border-[#336FD2]",
+      id: 12,
+      src: nextjs,
+      title: "Next JS",
+      style: "border-[#E5E7EB]",
     },
   ];
 
