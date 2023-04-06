@@ -46,7 +46,7 @@ const Portfolio = () => {
       modal: (
         <Modal
           modalTxt="codeThreads"
-          modalDescription="Implemented full-stack development, including creating RESTful APIs with Express.JS, managing database with PostgreSQL, and building responsive UI with React.JS Tech: Express.JS | Node.JS | PostgreSQL | React| Router | Jest | Tailwind | JavaScript | CSS | Html"
+          modalDescription="CodeThreads is a full-stack e-commerce site developed using the PERN stack, which stands for PostgreSQL, Express.js, React, and Node.js. TypeScript is used as the primary language for development, with Jest utilized for testing purposes. The site integrates with Google OAuth for secure and easy sign-in and Stripe for payment processing."
         />
       ),
     },
