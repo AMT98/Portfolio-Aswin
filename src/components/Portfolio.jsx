@@ -206,37 +206,37 @@ const Portfolio = () => {
         />
       ),
     },
-    {
-      id: 7,
-      title: "Guessing Number",
-      src: guessingNum,
-      demo: (
-        <a
-          className="w-1/2 px-6 py-3 m-4"
-          href="https://guessingnum.netlify.app/"
-          target="_blank"
-          rel="noreferrer"
-        >
-          <MdPreview size={25} />
-        </a>
-      ),
-      code: (
-        <a
-          className="w-1/2 px-6 py-3 m-4"
-          href="https://github.com/AMT98/Guessing-Game"
-          target="_blank"
-          rel="noreferrer"
-        >
-          <FaGithub size={25} />
-        </a>
-      ),
-      modal: (
-        <Modal
-          modalTxt="Guess the number"
-          modalDescription="Created a guessing number game implementing vanilla JAVASCRIPT, HTML, and CSS"
-        />
-      ),
-    },
+    // {
+    //   id: 7,
+    //   title: "Guessing Number",
+    //   src: guessingNum,
+    //   demo: (
+    //     <a
+    //       className="w-1/2 px-6 py-3 m-4"
+    //       href="https://guessingnum.netlify.app/"
+    //       target="_blank"
+    //       rel="noreferrer"
+    //     >
+    //       <MdPreview size={25} />
+    //     </a>
+    //   ),
+    //   code: (
+    //     <a
+    //       className="w-1/2 px-6 py-3 m-4"
+    //       href="https://github.com/AMT98/Guessing-Game"
+    //       target="_blank"
+    //       rel="noreferrer"
+    //     >
+    //       <FaGithub size={25} />
+    //     </a>
+    //   ),
+    //   modal: (
+    //     <Modal
+    //       modalTxt="Guess the number"
+    //       modalDescription="Created a guessing number game implementing vanilla JAVASCRIPT, HTML, and CSS"
+    //     />
+    //   ),
+    // },
   ];
 
   return (
