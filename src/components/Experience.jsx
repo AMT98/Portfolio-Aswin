@@ -8,6 +8,8 @@ import github from "../assets/github.png";
 import tailwind from "../assets/tailwind.png";
 import node from "../assets/node.png";
 import express from "../assets/node.png";
+import typescript from "../assets/typescript.png";
+import stripe from "../assets/stripe.png";
 
 const Experience = () => {
   const techs = [
@@ -64,6 +66,18 @@ const Experience = () => {
       src: express,
       title: "Express JS",
       style: "border-[#7BAF32]",
+    },
+    {
+      id: 10,
+      src: typescript,
+      title: "TypeScript",
+      style: "border-[#336FD2]",
+    },
+    {
+      id: 11,
+      src: stripe,
+      title: "Stripe",
+      style: "border-[#336FD2]",
     },
   ];
 
