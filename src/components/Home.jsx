@@ -15,7 +15,7 @@ const Home = () => {
           >
             Hi
             <span className="wave">👋</span>
-            my name is,
+            ,my name is
           </h2>
           <h3
             className="text-[#CCD6f6] md:text-9xl text-5xl font-bold py-4 max-w-7xl "
