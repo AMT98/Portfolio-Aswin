@@ -8,7 +8,7 @@ const footer = () => {
     <footer className="p-4 sm:p-6 bg-gradient-to-r from-[#00CDAE] to-[#00CCAF]">
       <div className="sm:flex sm:items-center sm:justify-between">
         <span className="text-sm text-[#0A192F] sm:text-center dark:text[#0A192F]">
-          © 2023{" "}
+          © 2023
           <a href="https://aswinmalla.netlify.app/" className="hover:underline">
             Aswin Malla
           </a>
