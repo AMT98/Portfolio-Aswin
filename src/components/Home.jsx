@@ -37,17 +37,19 @@ const Home = () => {
               data-aos="fade-up"
               data-aos-duration="1300"
             >
-              I am a
+              I'm a
               <Typed
-                className="md:text-2xl sm:text-xl text-xl sm:max-w-lg font-bold py-1 ml-2 text-[#5CEACA]"
+                className="md:text-2xl sm:text-xl text-md sm:max-w-lg font-bold py-1 ml-2 text-[#5CEACA]"
                 strings={[
                   "software developer.",
                   "problem solver.",
                   "web developer.",
-                  "team player.",
+                  "passionate learner.",
+                  "adaptable multitasker.",
+                  "analytical thinker.",
                 ]}
-                typeSpeed={100}
-                backSpeed={50}
+                typeSpeed={70}
+                backSpeed={10}
                 loop
               />
             </p>
