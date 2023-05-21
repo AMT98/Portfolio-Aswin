@@ -21,16 +21,17 @@ const About = () => {
                 stay up to date with the latest web development technologies.
               </p>
               <p className="text-white-500 font-bold md:text-base text-xs py-4 max-w-md">
-                I have experience in developing responsive front-end using React
-                and TailwindCSS and a solid understanding of HTML, CSS, and
-                JavaScript. On the back-end, I have experience with Node.js,
-                Express, and PostgreSQL. I am a team player and have excellent
-                communication skills, which have helped me to work effectively
-                with remote teams. I am also a quick learner and am always
-                looking for new challenges. I am excited to continue to develop
-                my skills and work on new and exciting projects. When I am not
-                coding, I enjoy reading about new technologies, hiking, working
-                out, cooking, and spending time with my family.
+                I have experience in developing responsive front-end using
+                React, Next, Bootstrap, and TailwindCSS and a solid
+                understanding of HTML, CSS, and JavaScript/TypeScript. On the
+                back-end, I have experience with Node.js, Express, and
+                PostgreSQL. I am a team player and have excellent communication
+                skills, which have helped me to work effectively with remote
+                teams. I am also a quick learner and am always looking for new
+                challenges. I am excited to continue to develop my skills and
+                work on new and exciting projects. When I am not coding, I enjoy
+                reading about new technologies, hiking, working out, cooking,
+                and spending time with my family.
               </p>
             </div>
             <div
